@@ -10,3 +10,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+console.log('Componente X cargado');

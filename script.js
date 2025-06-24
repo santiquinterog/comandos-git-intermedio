@@ -4,7 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (button) {
     button.addEventListener('click', () => {
-      resultDiv.textContent = '¡Botón clicado con éxito!';
+      resultDiv.className = 'error';
+      resultDiv.textContent = '¡Botón clicado sin éxito!';
+      console.error('Error: El botón no se ha clicado correctamente.');
     });
   }
 });

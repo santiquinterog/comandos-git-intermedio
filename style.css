@@ -31,3 +31,11 @@ button {
   font-weight: bold;
   color: #e74c3c;
 }
+
+footer {
+  margin-top: 40px;
+  font-size: 20px;
+  padding: 20px;
+  color: black;
+  background-color: white;
+}
